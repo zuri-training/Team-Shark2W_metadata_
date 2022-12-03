@@ -1,4 +1,8 @@
-# fetch-metadata
+# fetch-metadata - TEAM SHARK2W
+
+#### A platform that collects and displays meta data of uploaded files. Users should be able to access meta data information of their files that they have uploaded prior which include: images, videos, audios, documents and many others.
+
+#Introduction
 
 ## The Instructions for Milestone One in the Zuri Project Phase states:
 
@@ -43,4 +47,14 @@
 
 ## Languages Used to build this project include:
 
-### HTML, CSS, Javascript and NodeJS
+### HTML, CSS, Javascript and Python.
+
+
+#Devices used in building this project
+
+##### Mobile Tablets, Laptops and Desktops.
+
+
+#Relevant links pertaining to this Project
+
+
