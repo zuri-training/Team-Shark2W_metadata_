@@ -73,17 +73,19 @@
 
 - **Unauthenticated users - This refers to individuals who have not yet registered on the web platform**
   These users can view the website Landing page. There are also some other things they should be able to do as specified by the instructions which are:
-        1.  View and Interact with the documentation
-        2.  Register to view more details
-        3.  No access to use until registered
+  
+        - View and Interact with the documentation
+        - Register to view more details
+        - No access to use until registered
 
-- **Authenticated Users - This refers to individuals who have registered and completed all the verification processes in the web platform**
-        1.  Full access to the platform
-        2.  Allow users upload files (image, csv, pdf and json)
-        3.  Generate / Fetch meta data of the files uploaded
-        4.  Display meta data to users
-        5.  Allow export, download, share and website embed
-        6.  Allow user save data and come back to download
+- **Authenticated Users - This refers to individuals who have registered and completed all the verification processes in the web platform*
+
+        - Full access to the platform
+        - Allow users upload files (image, csv, pdf and json)
+        - Generate / Fetch meta data of the files uploaded
+        - Display meta data to users
+        - Allow export, download, share and website embed
+        - Allow user save data and come back to download
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -164,24 +166,24 @@ For TeamShark2w, execute the following steps to collaborate:
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 # Contributors <a name="contributors"></a>
-        1.  Grace Kenneth-Obasi (Team Lead)
-        2.  Ofu Amunega
-        3.  Adebanke Shogo
-        4.  Babatunde Ademola
-        5.  Oluwadamilola Olateju
-        6.  Funke Adegbokiki
-        7.  Lindokuhle Ntshingila
-        8.  Mololuwa Olowoyo
-        9.  Ebubechukwu Ezike
-        10. Mercy Mrabure
-        11. Oluwadara Odejobi
-        12. Rashida A
-        13. Rashida Abdul-Rashid
-        14. Kevin Itheluegbe
-        15. Naima Aliyu
-        16. Oluwatobiloba Adejumo
-        17. Shola Abegunde
-        18. Tom Rawson
+#### 1.  Grace Kenneth-Obasi (Team Lead)
+#### 2.  Ofu Amunega
+#### 3.  Adebanke Shogo
+#### 4.  Babatunde Ademola
+#### 5.  Oluwadamilola Olateju
+#### 6.  Funke Adegbokiki
+#### 7.  Lindokuhle Ntshingila
+#### 8.  Mololuwa Olowoyo
+#### 9.  Ebubechukwu Ezike
+#### 10. Mercy Mrabure
+#### 11. Oluwadara Odejobi
+#### 12. Rashida A
+#### 13. Rashida Abdul-Rashid
+#### 14. Kevin Itheluegbe
+#### 15. Naima Aliyu
+#### 16. Oluwatobiloba Adejumo
+#### 17. Shola Abegunde
+#### 18. Tom Rawson
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
