@@ -1,23 +1,23 @@
 # Table of Contents
 
 - [About the Project](#about-project)
-- 
+
 - [Technologies](#technologies)
-- 
+
 - [Features](#features)
-- 
+
 - [Product Specification](#product-specification)
-- 
+
 - [How to Use](#how-to-use)
-- 
+
 - [Status of Project](#status-of-project)
-- 
+
 - [Collaboration](#collaboration)
-- 
+
 - [Contributors](#contributors)
-- 
+
 - [Documentation](#documentation)
-- 
+
 - [Acknowledgements](#acknowledgements)
 
 
