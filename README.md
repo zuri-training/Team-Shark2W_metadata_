@@ -41,5 +41,5 @@
 
 
 #Relevant links pertaining to this Project
-##### Documentation -- The documentation for this whole project can be found here [click this link(https://docs.google.com/document/d/165HIAdijkZ8DZywODAz-woHeukzfTO_DwAvgEVOP39U/edit?usp=drivesdk)]
+##### Documentation -- The documentation for this whole project can be found here [click this link](https://docs.google.com/document/d/165HIAdijkZ8DZywODAz-woHeukzfTO_DwAvgEVOP39U/edit?usp=drivesdk)
 
