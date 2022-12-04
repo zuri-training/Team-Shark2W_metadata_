@@ -73,17 +73,17 @@
 
 - **Unauthenticated users - This refers to individuals who have not yet registered on the web platform**
   These users can view the website Landing page. There are also some other things they should be able to do as specified by the instructions which are:
-       1. View and Interact with the documentation
-       2. Register to view more details
-       3. No access to use until registered
+        1.  View and Interact with the documentation
+        2.  Register to view more details
+        3.  No access to use until registered
 
 - **Authenticated Users - This refers to individuals who have registered and completed all the verification processes in the web platform**
-       1. Full access to the platform
-       2. Allow users upload files (image, csv, pdf and json)
-       3. Generate / Fetch meta data of the files uploaded
-       4. Display meta data to users
-       5. Allow export, download, share and website embed
-       6. Allow user save data and come back to download
+        1.  Full access to the platform
+        2.  Allow users upload files (image, csv, pdf and json)
+        3.  Generate / Fetch meta data of the files uploaded
+        4.  Display meta data to users
+        5.  Allow export, download, share and website embed
+        6.  Allow user save data and come back to download
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -125,10 +125,11 @@ For TeamShark2w, execute the following steps to collaborate:
 
 2. Fork the repository: Click the "fork" button on the upper right corner of the Repository page.
 
-3. Make a local clone: Click on the "code" button on the Repository page and copy the URL for the forked Repository "https://github.com/zuri-training/Team-Shark2W_metadata_.git"
+3. Make a local clone: Click on the "code" button on the Repository page and copy the URL for the forked Repository 
+    "https://github.com/zuri-training/Team-Shark2W_metadata_.git"
 
 4. Create a folder on your Computer for the project workspace. Open Command Prompt or Terminal in the same folder location In your Terminal, type:
-                 git clone https://github.com/zuri-training/Team-Shark2W_metadata_.git
+     git clone https://github.com/zuri-training/Team-Shark2W_metadata_.git
 
 5. Open terminal and set upstream branch:
     git remote add upstream https://github.com/zuri-training/Team-Shark2W_metadata_
@@ -139,22 +140,22 @@ For TeamShark2w, execute the following steps to collaborate:
 7. Create a new branch for the task you are working on :
     git checkout -b "branchName"
     (Ensure your branchName is very descriptive in relation to the aspect you are working on.
- Also be sure to check which branch you are on using
+    Also be sure to check which branch you are on using
   
-git status 
+    git status 
 
-before you begin working
+    before you begin working
 
 8. When you're done with your task, do:
-                 git add
+        git add
         Commit your work with another very descriptive message:
         git commit -m "message"
 
 9. To avoid conflicts:
-             git pull upstream main
+        git pull upstream main
 
 10. Then push your branch:
-             git push origin branchName - This will create the branch remotely  and push to that branch on the Github repository 
+        git push origin branchName - This will create the branch remotely  and push to that branch on the Github repository 
 
 11. Go to Github and create a new pull request to the main branch. It will then be reviewed and merged into the master branch.
 
@@ -163,25 +164,24 @@ before you begin working
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 # Contributors <a name="contributors"></a>
-
-1. Grace Kenneth-Obasi (Team Lead)
-2. Ofu Amunega
-3. Adebanke Shogo
-4. Babatunde Ademola
-5. Oluwadamilola Olateju
-6. Funke Adegbokiki
-7. Lindokuhle Ntshingila
-8. Mololuwa Olowoyo
-9. Ebubechukwu Ezike
-10. Mercy Mrabure
-11. Oluwadara Odejobi
-12. Rashida A
-13. Rashida Abdul-Rashid
-14. Kevin Itheluegbe
-15. Naima Aliyu
-16. Oluwatobiloba Adejumo
-17. Shola Abegunde
-18. Tom Rawson
+        1.  Grace Kenneth-Obasi (Team Lead)
+        2.  Ofu Amunega
+        3.  Adebanke Shogo
+        4.  Babatunde Ademola
+        5.  Oluwadamilola Olateju
+        6.  Funke Adegbokiki
+        7.  Lindokuhle Ntshingila
+        8.  Mololuwa Olowoyo
+        9.  Ebubechukwu Ezike
+        10. Mercy Mrabure
+        11. Oluwadara Odejobi
+        12. Rashida A
+        13. Rashida Abdul-Rashid
+        14. Kevin Itheluegbe
+        15. Naima Aliyu
+        16. Oluwatobiloba Adejumo
+        17. Shola Abegunde
+        18. Tom Rawson
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
