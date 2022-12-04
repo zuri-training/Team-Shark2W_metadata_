@@ -2,27 +2,12 @@
 
 #### A platform that collects and displays meta data of uploaded files. Users should be able to access meta data information of their files that they have uploaded prior which include: images, videos, audios, documents and many others.
 
-#Introduction
-
-## The Instructions for Milestone One in the Zuri Project Phase states:
-
-### You are expected to do the following: 
-
-#### 1. Documentation 
-
-#### 2. Design Sketch 
-
-#### 3. GitHub Repo with read.me content
-
-#### 4. Data Schema
-
-#### 5. Mood boards
-
+# Introduction
 
 # Our Project is titled Fetch-metadata.
 ## We have been asked to implement some basic features for authenticated and unauthenticated users such as:
 
-## Authenticated Users:
+## For Authenticated Users:
 #### 1. Full access to the platform
 
 #### 2. Allow users upload files (image, csv, pdf and json)
@@ -56,5 +41,5 @@
 
 
 #Relevant links pertaining to this Project
-
+##### Documentation -- The documentation for this whole project can be found here [click this link(https://docs.google.com/document/d/165HIAdijkZ8DZywODAz-woHeukzfTO_DwAvgEVOP39U/edit?usp=drivesdk)]
 
