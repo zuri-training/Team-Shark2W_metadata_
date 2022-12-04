@@ -71,21 +71,21 @@
 
 <!-- Features -->
 
-# Key Features <a name="features"></a>
+# Features <a name="features"></a>
 
 - **Unauthenticated users - This refers to individuals who have not yet registered on the web platform**
   These users can view the website Landing page. There are also some other things they should be able to do as specified by the instructions which are:
-View and Interact with the documentation
-Register to view more details
-No access to use until registered
+- View and Interact with the documentation
+- Register to view more details
+- No access to use until registered
 
 - **Authenticated Users - This refers to individuals who have registered and completed all the verification processes in the web platform**
-Full access to the platform
-Allow users upload files (image, csv, pdf and json)
-Generate / Fetch meta data of the files uploaded
-Display meta data to users
-Allow export, download, share and website embed
-Allow user save data and come back to download
+- Full access to the platform
+- Allow users upload files (image, csv, pdf and json)
+- Generate / Fetch meta data of the files uploaded
+- Display meta data to users
+- Allow export, download, share and website embed
+- Allow user save data and come back to download
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
