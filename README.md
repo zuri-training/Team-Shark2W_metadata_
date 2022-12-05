@@ -48,7 +48,7 @@
 <details>
   <summary>Backend Languages</summary>
   <ul>
-    <li><a href="https://nodejs.com/">Nodejs</a></li>
+    <li><a href="https://www.python.org/">Python</a></li>
   </ul>
 </details>
 
