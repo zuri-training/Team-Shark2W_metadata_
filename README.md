@@ -53,9 +53,10 @@
 </details>
 
 <details>
-<summary>Database Language</summary>
+<summary>Database Languages</summary>
   <ul>
     <li><a href="https://www.mysql.org/">MySQL</a></li>
+<li><a href="https://www.djangoproject.com/">Django</a></li>
   </ul>
 </details>
 
