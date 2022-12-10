@@ -7,11 +7,10 @@
   scroll-behavior: smooth;
 }
 
-.header-section {
+.hero-section {
   background-image: url(/images/main-background-image2.png);
   background-repeat: no-repeat;
   background-size: cover;
-  /* background-color: black; */
   height: 100vh;
 }
 
@@ -119,7 +118,7 @@ i {
 
 .second-text button {
   width: 482px;
-  height: 56px;
+  padding: 10px 0;
   margin: auto;
   font-size: 24px;
   line-height: 36px;
@@ -134,7 +133,6 @@ i {
   padding: 50px;
   display: flex;
   flex-direction: column;
-  /* gap: 54px; */
   height: 100vh;
 }
 
@@ -295,9 +293,8 @@ i {
 .images button {
   background-color: #0c4bb7;
   width: 228px;
-  height: 50px;
   border-radius: 5px;
-  padding: 10px;
+  padding: 10px 0;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -315,6 +312,10 @@ i {
   line-height: 24px;
   color: #0c4bb7;
   padding-bottom: 0;
+}
+
+.fourth-section-mobile {
+  display: none;
 }
 
 .fifth-section {
@@ -447,4 +448,239 @@ i {
   height: 20px;
   border-radius: 50%;
   margin-right: 80px;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+
+/* MEDIA QUERIES */
+/* MOBILE DEVICES (0px - 320px */
+@media screen and (max-width: 320px) {
+  .hero-section {
+    height: max-content;
+  }
+  .header {
+    padding: 10px;
+  }
+
+  .header ul > li,
+  .header button {
+    display: none;
+  }
+
+  .first-text p,
+  .first-text span {
+    font-size: 24px;
+    line-height: normal;
+  }
+
+  .header-section-content img {
+    width: 100%;
+  }
+
+  .second-text p {
+    font-size: 16px;
+  }
+
+  .second-text button {
+    width: inherit;
+    margin: 0;
+    font-size: 18px;
+  }
+
+  .second-section {
+    padding: 20px;
+    height: max-content;
+  }
+
+  .explanation {
+    width: inherit;
+  }
+
+  .explanation h1 {
+    font-size: 29px;
+  }
+
+  .explanation p {
+    font-size: 20px;
+  }
+
+  .lfc {
+    flex-direction: column;
+    padding-top: 20px;
+    gap: 30px;
+  }
+
+  .lfc div {
+    padding: 0;
+  }
+
+  .company-logos {
+    width: inherit;
+    margin-top: 35px;
+    flex-direction: column;
+    gap: 35px;
+  }
+
+  .third-section {
+    padding: 20px;
+  }
+
+  .company-logos img {
+    display: block;
+    margin: auto;
+  }
+
+  .fourth-section {
+    display: none;
+  }
+
+  .fourth-section-mobile {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .document-mobile div,
+  .images-mobile div {
+    width: inherit;
+  }
+
+  .document-mobile img,
+  .images-mobile img {
+    width: 100%;
+  }
+
+  .document-mobile h1,
+  .images-mobile h1 {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: 1px;
+  }
+
+  .fourth-section-content-mobile span {
+    color: #fb8500;
+  }
+
+  .document-mobile p,
+  .images-mobile p {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+
+  .document-mobile button,
+  .images-mobile button {
+    background-color: #0c4bb7;
+    border-radius: 5px;
+    width: 80%;
+    padding: 15px 0;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #ffffff;
+    border: 0;
+    margin: auto;
+    margin-bottom: 15px;
+  }
+
+  .learn-more-mobile {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .learn-more-mobile p {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 24px;
+    color: #0c4bb7;
+    padding-bottom: 0;
+    text-align: center;
+  }
+
+  .document-mobile p {
+    margin-bottom: 35px;
+  }
+
+  .fifth-section {
+    padding: 20px;
+    height: max-content;
+  }
+
+  .fifth-section > h1 {
+    font-size: 18px;
+    font-weight: 800;
+  }
+
+  .upper,
+  .lower {
+    flex-direction: column;
+    gap: 100px;
+  }
+
+  .faq {
+    width: inherit;
+    margin: 0;
+    padding: 25px 0;
+    gap: 50px;
+  }
+
+  .upper h1,
+  .lower h1 {
+    font-size: 20px;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 16px;
+  }
+
+  .sixth-section {
+    margin-top: 40px;
+  }
+
+  .first-div {
+    text-align: center;
+  }
+
+  .second-div {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .third-div {
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .third-div p,
+  .third-div span {
+    margin: 0;
+    text-align: center;
+    margin: auto;
+  }
 }
