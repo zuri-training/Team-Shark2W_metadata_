@@ -29,6 +29,16 @@
   align-items: center;
 }
 
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+a:active {
+  text-decoration: none;
+  color: #ffffff;
+}
+
 .header ul > li {
   display: inline-block;
   color: #ffffff;
@@ -312,6 +322,11 @@ i {
   line-height: 24px;
   color: #0c4bb7;
   padding-bottom: 0;
+}
+
+.learn-more a,
+.learn-more-mobile a {
+  color: #0c4bb7;
 }
 
 .fourth-section-mobile {
@@ -622,10 +637,7 @@ i {
     color: #0c4bb7;
     padding-bottom: 0;
     text-align: center;
-  }
-
-  .document-mobile p {
-    margin-bottom: 35px;
+    margin-bottom: 45px;
   }
 
   .fifth-section {
@@ -661,6 +673,467 @@ i {
 
   .sixth-section {
     margin-top: 40px;
+    gap: 45px;
+  }
+
+  .first-div {
+    text-align: center;
+  }
+
+  .second-div {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .third-div {
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .third-div p,
+  .third-div span {
+    margin: 0;
+    text-align: center;
+    margin: auto;
+  }
+}
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+
+/* MOBILE DEVICES (321px - 480px) */
+@media screen and (min-width: 321px) and (max-width: 480px) {
+  .hero-section {
+    height: max-content;
+  }
+
+  .header {
+    padding: 10px;
+  }
+
+  .header ul > li,
+  .header button {
+    display: none;
+  }
+
+  .first-text p,
+  .first-text span {
+    font-size: 40px;
+    line-height: normal;
+  }
+
+  .header-section-content img {
+    width: 100%;
+  }
+
+  .second-text p {
+    font-size: 26px;
+    line-height: 32px;
+  }
+
+  .second-text button {
+    width: inherit;
+    margin: 0;
+    font-size: 25px;
+  }
+
+  .second-section {
+    padding: 20px;
+    height: max-content;
+  }
+
+  .explanation {
+    width: inherit;
+  }
+
+  .explanation p {
+    font-size: 22px;
+  }
+
+  .lfc {
+    flex-direction: column;
+    padding-top: 20px;
+    gap: 30px;
+    margin: 0;
+    width: 100%;
+  }
+
+  .lfc div {
+    padding: 0;
+    width: inherit;
+  }
+
+  .company-logos {
+    width: inherit;
+    margin-top: 35px;
+    flex-direction: column;
+    gap: 35px;
+  }
+
+  .third-section {
+    padding: 20px;
+  }
+
+  .company-logos img {
+    display: block;
+    margin: auto;
+  }
+
+  .fourth-section {
+    display: none;
+  }
+
+  .fourth-section-mobile {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-top: 20px;
+  }
+
+  .document-mobile div,
+  .images-mobile div {
+    width: inherit;
+  }
+
+  .document-mobile img,
+  .images-mobile img {
+    width: 100%;
+  }
+
+  .document-mobile h1,
+  .images-mobile h1 {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: 1px;
+  }
+
+  .fourth-section-content-mobile span {
+    color: #fb8500;
+  }
+
+  .document-mobile p,
+  .images-mobile p {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+
+  .document-mobile button,
+  .images-mobile button {
+    background-color: #0c4bb7;
+    border-radius: 5px;
+    width: 80%;
+    padding: 15px 0;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #ffffff;
+    border: 0;
+    margin: auto;
+    margin-bottom: 15px;
+  }
+
+  .learn-more-mobile {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .learn-more-mobile p {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 24px;
+    color: #0c4bb7;
+    padding-bottom: 0;
+    text-align: center;
+  }
+
+  .learn-more-mobile p {
+    margin-bottom: 45px;
+  }
+
+  .fifth-section {
+    padding: 20px;
+    height: max-content;
+  }
+
+  .fifth-section > h1 {
+    font-size: 29px;
+    font-weight: 800;
+  }
+
+  .upper,
+  .lower {
+    flex-direction: column;
+    gap: 100px;
+  }
+
+  .faq {
+    width: inherit;
+    margin: 0;
+    padding: 25px 0;
+    gap: 100px;
+  }
+
+  .upper h1,
+  .lower h1 {
+    font-size: 27px;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 16px;
+  }
+
+  .sixth-section {
+    margin-top: 0;
+    gap: 45px;
+  }
+
+  .first-div {
+    text-align: center;
+  }
+
+  .second-div {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .third-div {
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .third-div p,
+  .third-div span {
+    margin: 0;
+    text-align: center;
+    margin: auto;
+  }
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* TABLETS AND IPADS (481px - 768px) */
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .hero-section {
+    height: max-content;
+  }
+
+  .header ul > li {
+    display: none;
+  }
+
+  .header-section-content img {
+    width: 100%;
+  }
+
+  .second-text p {
+    font-size: 28px;
+    line-height: 32px;
+  }
+
+  .second-text button {
+    width: inherit;
+    margin: 0;
+    /* font-size: 25px; */
+  }
+
+  .explanation {
+    width: inherit;
+  }
+
+  .explanation p {
+  }
+
+  .second-section {
+    height: max-content;
+  }
+
+  .lfc {
+    flex-direction: column;
+    width: inherit;
+    gap: 50px;
+    margin: 0;
+    padding: 25px;
+  }
+
+  .company-logos {
+    width: inherit;
+  }
+
+  .company-logos img {
+    width: 70%;
+    display: block;
+    margin: auto;
+  }
+
+  .fourth-section {
+    display: none;
+  }
+
+  .fourth-section-mobile {
+    display: flex;
+    flex-direction: column;
+    padding: 35px;
+    gap: 50px;
+  }
+
+  .document-mobile,
+  .images-mobile {
+    width: 80%;
+    margin: auto;
+  }
+
+  .document-mobile div,
+  .images-mobile div {
+    width: 100%;
+    margin: auto;
+  }
+
+  .fourth-section-content-mobile {
+    margin: 0;
+  }
+
+  .document-mobile img,
+  .images-mobile img {
+    width: 100%;
+  }
+
+  .learn-more-mobile {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+  }
+
+  .document-mobile h1,
+  .images-mobile h1 {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: 1px;
+  }
+
+  .fourth-section-content-mobile span {
+    color: #fb8500;
+  }
+
+  .document-mobile p,
+  .images-mobile p {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+
+  .document-mobile button,
+  .images-mobile button {
+    background-color: #0c4bb7;
+    border-radius: 5px;
+    width: 60%;
+    padding: 15px 0;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #ffffff;
+    border: 0;
+  }
+
+  .learn-more-mobile p {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 24px;
+    color: #0c4bb7;
+    padding-bottom: 0;
+    text-align: center;
+  }
+
+  .fifth-section {
+    padding: 25px;
+    height: max-content;
+  }
+
+  .fifth-section h1 {
+    font-size: 31px;
+  }
+
+  .upper,
+  .lower {
+    flex-direction: column;
+    gap: 100px;
+  }
+
+  .faq {
+    width: inherit;
+    margin: 0;
+    padding: 25px 0;
+    gap: 100px;
+  }
+
+  .upper h1,
+  .lower h1 {
+    font-size: 30px;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 16px;
+  }
+
+  .sixth-section {
+    margin-top: 0;
+    gap: 45px;
   }
 
   .first-div {
