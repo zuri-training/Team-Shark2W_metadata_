@@ -194,3 +194,72 @@ form button {
 .policy span {
   color: #fb8500;
 }
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* MEDIA QUERIES */
+/* MOBILE DEVICES (0px - 320px */
+@media screen and (max-width: 500px) {
+  body {
+    padding: 0;
+  }
+
+  section {
+    width: 98%;
+    padding: 20px 10px;
+  }
+
+  .accounts div {
+    padding: 10px;
+  }
+
+  .accounts p {
+    font-size: 16px;
+  }
+
+  form button{
+    padding: 10px 0;
+  }
+}
+
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+
+/* /* MOBILE DEVICES (481px - 768px)  */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+
+}
+
+

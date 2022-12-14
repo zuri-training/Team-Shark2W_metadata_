@@ -66,8 +66,6 @@ a:active {
 }
 
 .header button {
-  width: 124px;
-  height: 46px;
   border-radius: 7px;
   background-color: #0c4bb7;
   font-weight: 500;
@@ -143,7 +141,7 @@ i {
   padding: 50px;
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: max-content;
 }
 
 .explanation {
@@ -169,7 +167,7 @@ i {
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
-  line-height: 36px;
+  line-height: 45px;
   text-align: center;
 }
 
@@ -259,7 +257,8 @@ i {
 .images {
   display: flex;
   justify-content: space-between;
-  width: 65%;
+  width: 75%;
+  gap: 30px;
   margin: auto;
   align-items: center;
 }
@@ -302,9 +301,8 @@ i {
 .document button,
 .images button {
   background-color: #0c4bb7;
-  width: 228px;
   border-radius: 5px;
-  padding: 10px 0;
+  padding: 10px 40px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -338,13 +336,12 @@ i {
   flex-direction: column;
   padding: 50px;
   border-top: 1px solid #0c4bb7;
-  height: 100vh;
+  height: max-content;
 }
 
 .faq {
   display: flex;
   flex-direction: column;
-  padding: 50px 0;
   width: 80%;
   margin: auto;
   justify-content: center;
@@ -356,6 +353,11 @@ i {
 .lower {
   display: flex;
   gap: 300px;
+}
+
+.upper div,
+.lower div {
+  width: 100%;
 }
 
 .fifth-section > h1 {
@@ -403,7 +405,6 @@ i {
   padding: 50px 0;
   background-color: #0a337a;
   border: 1px solid #000000;
-  margin-top: 80px;
   gap: 90px;
 }
 
@@ -440,7 +441,6 @@ i {
 
 .third-div {
   display: flex;
-  margin-top: 100px;
   border-top: 1px solid #787878;
   width: 85%;
   margin: auto;
@@ -979,14 +979,10 @@ i {
   .second-text button {
     width: inherit;
     margin: 0;
-    /* font-size: 25px; */
   }
 
   .explanation {
     width: inherit;
-  }
-
-  .explanation p {
   }
 
   .second-section {
@@ -1155,5 +1151,184 @@ i {
     margin: 0;
     text-align: center;
     margin: auto;
+  }
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* BIGGER TABLETS AND IPADS */
+
+@media screen and (min-width: 769px) and (max-width: 1200px) {
+  .hero-section {
+    height: max-content;
+  }
+
+  .header {
+    padding: 15px;
+    justify-content: flex-start;
+    gap: 10px;
+  }
+
+  .header ul > li {
+    margin: 0;
+    width: max-content;
+  }
+
+  .nav {
+    width: inherit;
+    justify-content: space-between;
+  }
+
+  .second-section {
+    padding: 30px;
+    height: max-content;
+  }
+
+  .explanation {
+    width: 80%;
+  }
+
+  .explanation p {
+    font-size: 20px;
+  }
+
+  .lfc {
+    width: 100%;
+    gap: 10px;
+  }
+
+  .lfc div {
+    padding: 0;
+    width: 100%;
+  }
+
+  .company-logos {
+    width: 100%;
+  }
+
+  .fourth-section {
+    padding: 30px;
+  }
+
+  .document,
+  .images {
+    width: 100%;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .document h1,
+  .images h1 {
+    font-size: 22px;
+    font-weight: 600;
+  }
+
+  .fifth-section {
+    height: max-content;
+    padding: 30px;
+  }
+
+  .upper,
+  .lower {
+    gap: 30px;
+  }
+
+  .upper div,
+  .lower div {
+    width: 100%;
+  }
+
+  .faq {
+    width: 100%;
+    margin: 0;
+    padding-top: 30px;
+  }
+
+  .upper h1,
+  .lower h1 {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 700;
+  }
+
+  .sixth-section {
+    padding: 30px 60px;
+    gap: 50px;
+  }
+
+  .first-div {
+    width: 100%;
+  }
+
+  .second-div {
+    width: 100%;
+  }
+
+  .second-div p {
+    font-size: 20px;
+  }
+
+  .third-div {
+    width: 100%;
+    margin: 0;
+    justify-content: space-evenly;
+  }
+
+  .third-div p {
+    margin: 0;
+  }
+
+  .third-div span {
+    margin: 0;
+  }
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* LARGE SCREENS (1201px - 1400px) */
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+  .header {
+    justify-content: flex-start;
+    gap: 100px;
+  }
+
+  .nav {
+    width: inherit;
   }
 }
