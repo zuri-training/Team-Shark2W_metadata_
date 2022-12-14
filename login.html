@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="/css/login.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/1d29cd001d.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Login</title>
+  </head>
+
+  <body>
+    <section>
+      <div class="logo">
+        <img src="/images/logo.png" alt="" />
+      </div>
+      <div class="login-form">
+        <form action="">
+          <div class="name">
+            <label for="username">Username</label>
+            <input
+              type="text"
+              name="username"
+              required
+              placeholder="@johndark"
+              id="username"
+            />
+          </div>
+          <div class="name">
+            <label for="password">Password</label>
+            <input
+              type="password"
+              name="password"
+              pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+              placeholder=".........."
+              title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"
+              required
+              id="password"
+            />
+            <i class="fa-solid fa-eye" id="show-password"></i>
+            <i class="fa-solid fa-eye-slash" id="hide-password"></i>
+          </div>
+          <p>Forgot your password?</p>
+          <button>Login</button>
+        </form>
+      </div>
+      <div class="division">
+        <div class="line"></div>
+        <div>
+          <h1>OR</h1>
+        </div>
+        <div class="line"></div>
+      </div>
+      <div class="accounts">
+        <div>
+          <img src="/images/fb.png" alt="" />
+          <p>Sign in with Facebook</p>
+        </div>
+        <div>
+          <img src="/images/linkedin.png" alt="" />
+          <p>Sign in with LinkedIn</p>
+        </div>
+        <div>
+          <img src="/images/google.png" alt="" />
+          <p>Sign in with Google</p>
+        </div>
+      </div>
+      <div class="policy">
+        <h1>Don’t have an account? <span>Create one</span></h1>
+        <p>
+          Click sign in to agree to Metadata’s
+          <span>“Terms of Service”</span> and acknowledge that Metadata’s
+          <span>“Privacy Policy”</span> applies to you
+        </p>
+      </div>
+    </section>
+    <div></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

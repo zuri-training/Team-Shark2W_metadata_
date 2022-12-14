@@ -1,0 +1,265 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-image: url(/images/main-background-image2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 30px 400px;
+}
+
+section {
+  background-color: rgba(255, 255, 255, 0.9);
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  height: 100%;
+  margin: auto;
+  padding: 20px 40px;
+  justify-content: space-between;
+}
+
+.logo {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.name {
+  display: flex;
+  flex-direction: column;
+  width: inherit;
+  position: relative;
+}
+
+.fa-eye,
+.fa-eye-slash {
+  position: absolute;
+  right: 5%;
+  top: 68%;
+  color: rgba(165, 157, 157, 0.6);
+  cursor: pointer;
+}
+
+.fa-eye:hover,
+.fa-eye-slash:hover {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.login-form label {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #1f2020;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 10px 20px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #000000;
+  border: 1px solid #0c4bb7;
+  border-radius: 7px;
+}
+
+.login-form input::placeholder {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #bbbcbe;
+}
+
+input[type="password"]::placeholder {
+  font-size: 40px;
+}
+
+label[for="password"] {
+  margin-top: 20px;
+}
+
+form p {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #0c4bb7;
+  text-align: right;
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+form button {
+  background: #0c4bb7;
+  border: 1px solid #000000;
+  border-radius: 7px;
+  padding: 10px 150px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.line {
+  border: 1px solid #1f2020;
+  height: 1px;
+  width: 100%;
+}
+
+.division {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+.division h1 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #1f2020;
+  margin: 0 20px;
+}
+
+.accounts {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.accounts div {
+  display: flex;
+  padding: 15px 60px;
+  border: 1px solid #0a337a;
+  border-radius: 7px;
+  gap: 30px;
+}
+
+.accounts p {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #1f2020;
+}
+
+.policy h1 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #1f2020;
+  text-align: center;
+}
+
+.policy h1 > span {
+  color: #0c4bb7;
+}
+
+.policy p {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: rgba(31, 32, 32, 0.8);
+}
+
+.policy span {
+  color: #fb8500;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* MEDIA QUERIES */
+/* MOBILE DEVICES (0px - 320px */
+@media screen and (max-width: 500px) {
+  body {
+    padding: 0;
+  }
+
+  section {
+    width: 98%;
+    padding: 20px 10px;
+  }
+
+  .accounts div {
+    padding: 10px;
+  }
+
+  .accounts p {
+    font-size: 16px;
+  }
+
+  form button{
+    padding: 10px 0;
+  }
+}
+
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+
+/* /* MOBILE DEVICES (481px - 768px)  */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+
+}
+
+

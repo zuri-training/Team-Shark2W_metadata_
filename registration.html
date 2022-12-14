@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/registration.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/1d29cd001d.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Sign In</title>
+  </head>
+  <body>
+    <section>
+      <div class="heading">
+        <h1>Set up a <span>MetaDoc</span> Account</h1>
+        <p>
+          Join thousands of <span>Metadata</span> users to save, share, copy,<br />
+          extract and track files with <span>Metadoc</span>
+        </p>
+      </div>
+
+      <div>
+        <form action="">
+          <div class="username">
+            <label for="username">Username</label>
+            <input
+              type="text"
+              name="username"
+              id="username"
+              placeholder="@johndark"
+            />
+          </div>
+
+          <div class="email">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="abcdefgh@gmail.com"
+            />
+          </div>
+
+          <div class="password">
+            <label for="password">Password</label>
+            <input
+              type="password"
+              name="password"
+              id="password"
+              pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+              placeholder=".........."
+              title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"
+              required
+            />
+            <i class="fa-solid fa-eye" id="show-password"></i>
+            <i class="fa-solid fa-eye-slash" id="hide-password"></i>
+          </div>
+
+          <div class="confirm">
+            <label for="password">Confirm Password</label>
+            <input
+              type="password"
+              name="password"
+              id="confirm-password"
+              pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+              placeholder=".........."
+              title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"
+              required
+            />
+            <i class="fa-solid fa-eye" id="confirm-show-password"></i>
+            <i class="fa-solid fa-eye-slash" id="confirm-hide-password"></i>
+          </div>
+
+          <div class="submit-button">
+            <button><a href="login.html">Create Account</a></button>
+          </div>
+        </form>
+      </div>
+      <div class="info">
+        <p>
+          Already have an account? <span><a href="login.html">Login</a></span>
+        </p>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
