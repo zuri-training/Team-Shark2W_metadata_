@@ -22,9 +22,9 @@
 
 # About the Project <a name="about-project"></a>
 
-> This is the Project phase period  of the Zuri Tech Training which has been going on for like 2 months now.. The project is called fetch_metadata..
+> This is the Project phase period  of the Zuri Tech Training which has been going on for like 2 months now.. The project is called Metadoc..
 
-**fetch_metadata** is a web platform that collects and displays metadata of uploaded files such as images, videos, audios, and so many others.
+**Metadoc** is a web platform that collects and displays metadata of uploaded files such as images, videos, audios, and so many others.
 
 
 # Technologies <a name="technologies"></a>
