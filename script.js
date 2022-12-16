@@ -1,3 +1,29 @@
+// NAVIGATION BAR/PANEL
+const showPanel = document.querySelector("#bars");
+const hidePanel = document.querySelector("#cancel");
+const panel = document.querySelector("#panel");
+document.getElementById("cancel").style.display = "none";
+document.getElementById("nav-list").style.display = "none"
+
+showPanel.addEventListener("click", function () {
+  document.getElementById("bars").style.display = "none";
+  document.getElementById("cancel").style.display = "block"
+  document.getElementById("panel").style.width = "300px"
+  document.getElementById("nav-list").style.display = "list-item"
+  document.getElementById("nav-list").style.listStyle = "none";
+  document.getElementById("panel").style.paddingRight = "50px"
+})
+
+hidePanel.addEventListener("click", function () {
+  document.getElementById("cancel").style.display = "none";
+  document.getElementById("bars").style.display = "block";
+  document.getElementById("panel").style.width = "0";
+  document.getElementById("nav-list").style.display = "none";
+})
+
+
+
+// SHOW/HIDE PASSWORD
 const showPassword = document.querySelector("#show-password");
 const hidePassword = document.querySelector("#hide-password");
 const confirmShowPassword = document.querySelector("#confirm-show-password");
@@ -24,7 +50,6 @@ hidePassword.addEventListener("click", function () {
     passwordField.getAttribute("type") === "password" ? "text" : "password";
   passwordField.setAttribute("type", type);
 });
-
 
 // FOR CONFIRM PASSWORD INPUT
 
