@@ -62,7 +62,7 @@ class UploadDetails extends HTMLElement {
 			document.createElement('img')
 		);
 		secondUploadSlot.setAttribute('slot', 'second-data');
-		secondUploadSlot.setAttribute('src', 'images/edit.png');
+		secondUploadSlot.setAttribute('src', 'images/editfile.png');
 		secondUploadSlot.setAttribute('alt', 'edit');
 
 		const imageContainer = container.appendChild(document.createElement('div'));
