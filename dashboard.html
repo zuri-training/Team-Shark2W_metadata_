@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="css/dashboard.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/1d29cd001d.js"
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="js/sidebar.js"></script>
+    <script defer src="js/filerecord.js"></script>
+    <script defer src="js/data-display-row.js"></script>
+    <script defer src="js/button-component.js"></script>
+    <script defer src="js/upload-details.js"></script>
+    <script defer src="js/sidebar-modal.js"></script>
+    <script defer src="js/dashboard.js"></script>
+
+    <title>MetaDoc</title>
+  </head>
+  <body>
+    <main class="main-container" id="main-container">
+      <div class="top-container" id="top-container">
+        <template id="sidebar-template">
+          <div class="side-bar" id="side-bar-container">
+            <div class="logo"><img src="images/logo.png" alt="logo"></div>
+            <div><i class="fa fa-th-large" aria-hidden="true"></i></div>
+            <div><img src="images/upload.png" alt="upload" ></div>
+            <div><img src="images/guard.png" alt="guard" ></div>
+            <div><img src="images/history.png" alt="history" ></div>
+            <div><img src="images/information.png" alt="information" ></div>
+            <div><img src="images/settings.png" alt="settings" ></div>
+          </div>
+        </template>
+        <template id="data-display-template">
+          <div class="parent-container">
+            <div class="first-container">
+              <slot name="first-data"></slot>
+            </div>
+            <div class="second-container">
+              <slot name="second-data"></slot>
+            </div>
+          </div>
+        </template>
+        <side-bar attachId="body-container" computedHeight="true" markDifference="4rem"></side-bar>
+        <div class="body-container" id="body-container">  
+          <div class="nav-bar">
+            <div class="list-container">
+              <ul class="list-option">
+                <li>
+                  <a href='home.html'>Home</a>
+                </li>
+                <li>
+                  <a href='services.html'>Services</a>
+                </li>
+                <li>
+                  Download
+                </li>
+                <li>
+                  <a href="about.html">About us</a>
+                </li>
+              </ul>
+            </div>
+            <div class="search-container">
+              <span id="menu" class="menu">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+              </span>
+              <input type="search" placeholder="Search">
+            </div>
+            <div class="user-container">
+              <img src="http://placehold.it/ alt="name" >
+              <span class="user-name">Mercy Mrabure</span>
+              <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </div>
+          </div>
+          <div class="dashboard-section">
+            <h2 class="'dashboard">Dashboard</h2>
+            <p>Extract metedata from your files</p>
+            <div class="download-container">
+              <section class="download">
+                <div class="image">
+                  <img src="images/file.png" alt="">
+                </div>
+                <div class="file-name">
+                  Data_element_project_name_csv
+                </div>
+                <div class="action-btn-container">
+                  <button class="btn btn-cancel">Cancel</button>
+                  <button class="btn btn-primary">Pause</button>
+                </div>
+              </section>
+            </div>
+            <div class="file-tracker-container">
+              <p>File tracking</p>
+              <section class="file-tracker">
+                <div class="tracker-image-container">
+                  <img class="tracker-img" src="images/tracker-1.png" alt="tracker-1">
+                  <img class="tracker-img" src="images/tracker-2.png" alt="tracker-2">
+                </div>
+                <div class="tracker-details-container">
+                  <div class="tracker-info blue">
+                    <div></div>
+                  </div>
+                  <div class="tracker-info green">
+                    <div></div> 
+                  </div>
+                  <div class="tracker-info purple">
+                    <div></div>
+                  </div>
+                  <div class="tracker-info orange">
+                    <div></div> 
+                  </div>
+                </div>
+              </section>
+              <section class="file-tracker-info">
+                <div class="image-tracker">
+                  <div class="image-tracker-container purple-tracker">
+                    <img src="images/tracker.png" alt="" >
+                  </div>
+                  <div class="image-tracker-info-container">
+                    <div>JPEGS</div>
+                    <div>12</div>
+                  </div>
+                </div>
+                <div class="image-tracker">
+                  <div class="image-tracker-container blue-tracker">
+                    <img src="images/tracker.png" alt="" >
+                  </div>
+                  <div class="image-tracker-info-container">
+                    <div>JPEGS</div>
+                    <div>12</div>
+                  </div>
+                </div>
+                <div class="image-tracker">
+                  <div class="image-tracker-container orange-tracker">
+                    <img src="images/tracker.png" alt="" >
+                  </div>
+                  <div class="image-tracker-info-container">
+                    <div>JPEGS</div>
+                    <div>12</div>
+                  </div>
+                </div>
+                <div class="image-tracker">
+                  <div class="image-tracker-container green-tracker">
+                    <img src="images/tracker.png" alt="" >
+                  </div>
+                  <div class="image-tracker-info-container">
+                    <div>JPEGS</div>
+                    <div>12</div>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="lower-container">
+        <file-record heading="name type size result"></file-record>
+        <upload-details></upload-details>       
+      </div> 
+      <sidebar-modal>
+        <side-bar checkResized></side-bar>
+      </sidebar-modal>    
+    </main>
+  </body>
+  </html>
