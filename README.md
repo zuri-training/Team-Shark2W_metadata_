@@ -192,4 +192,8 @@ For TeamShark2w, execute the following steps to collaborate:
 
 An absolutely more detailed documentation on the updates and details of this project can be found [here](https://docs.google.com/document/d/165HIAdijkZ8DZywODAz-woHeukzfTO_DwAvgEVOP39U/edit?usp=drivesdk)
 
+Live Testable Link: https://team-shark2metadata-production.up.railway.app/
+
+Static Page Link: https://metadocdata.netlify.app/
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
