@@ -112,7 +112,7 @@ a:active {
   font-weight: 400;
   font-size: 24px;
   line-height: 40px;
-  /* width: max-content; */
+  width: 70%;
   margin: auto;
   align-items: center;
   color: #2d2e2e;
@@ -121,9 +121,10 @@ a:active {
 
 .learn-more {
   display: flex;
-  width: 55%;
+  /* width: 55%; */
   margin: auto;
-  gap: 30px;
+  justify-content: center;
+  /* gap: 30px; */
   align-items: center;
 }
 
@@ -179,11 +180,26 @@ a:active {
   margin-bottom: 45px;
 }
 
+.upper-careers p, .lower-careers p{
+  width: 50%;
+  margin: auto;
+}
+
+.upper-careers div, .lower-careers div{
+  width: 50%;
+}
+
 .careers {
   display: flex;
+  flex-direction: column;
   width: 70%;
+  gap: 85px;
   margin: auto;
   justify-content: space-evenly;
+}
+
+.upper-careers, .lower-careers{
+  display: flex;
 }
 
 .careers h1 {
