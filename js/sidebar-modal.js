@@ -60,6 +60,7 @@ class SidebarModal extends HTMLElement {
 		// this.updateStyles();
 		this.mediaQuery.addEventListener('change', this.handleScreensChanged);
 		this.attachOnClick();
+		// this.updateStyles();
 	}
 
 	attributeChangedCallback(name, oldValue, newValue) {

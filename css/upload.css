@@ -1,0 +1,217 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  position: relative;
+}
+
+main, .container, .body-container, .search-image-container, .upload-info-container, .input-container, .upload-file-container, .file-upload {
+  display: grid;
+}
+
+.container {
+  grid-template-columns: 12% 88%;
+  column-gap: 2rem;
+}
+
+.fixed-container {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 12%;
+}
+
+.nav-bar {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 1rem 1rem 1rem 0;
+}
+
+.list-container{
+  grid-column-end: span 2;
+}
+
+.list-option {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  margin: 0;
+  list-style-type: none;
+  align-items: center;
+  padding: 0;
+}
+
+.list-option li {
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+
+.list-option li a {
+  color: #000;
+  text-decoration: none;
+}
+
+.search-image-container {
+  grid-template-columns: 85% 15%;
+}
+
+.search-container .menu {
+  display: none;
+}
+
+.search-container input {
+  background-color: D9D9D9;
+  border-radius: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  width: 90%;
+  padding: 0.6rem;
+  padding-left: 1.5rem;
+  font-size: 1rem;
+  font-weight: 400;
+  background-image: url("../images/search.png");
+  background-position: 95%;
+  background-repeat: no-repeat;
+}
+
+.user-container img{
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+}
+
+.upload-info-container {
+  margin-top: 1rem;
+}
+
+.upload-info-container p {
+  font-size: 1.2rem;
+  font-size: 400;
+}
+
+.input-container {
+  grid-template-columns: 10% 90%;
+  margin-bottom: 2rem;
+}
+
+.input-wrapper input, .input-wrapper select {
+  border-radius: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  width: 30%;
+  padding: 0.6rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.upload-file-container {
+  margin-top: 3rem;
+  margin-left: 4rem;
+  grid-template-columns: auto;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.upload-file-wrapper {
+  width: 45rem;
+}
+
+.attach-file {
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+}
+
+.attach-file .fa {
+  margin-right: 1rem;
+  font-size: 2rem;
+  color: #aaa;
+}
+
+.file-upload {
+  border: 1px dashed #000;
+  width: 100%;
+  background-color: #F9F9F9;
+  height: 25rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-file-wrapper label div {
+  font-size: 0.8rem;
+  padding-top: 1rem;
+  font-weight: 500;
+}
+
+.button-wrapper {
+  margin-top: 4rem;
+  width: 55rem;
+  display: flex;
+  flex-direction: row-reverse;
+}
+sidebar-modal {
+  display: none;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, .5);
+  z-index: 10;
+}
+sidebar-modal[open] {
+  display: block;
+}
+
+@media (0px <= width <= 991px) {
+  .nav-bar {
+    grid-template-columns: 85% 15%;
+    gap: 1rem;
+    padding: 1rem 0;
+  }
+  .list-container{
+    grid-row-start: 2;
+  }
+  .list-option li {
+    font-size: 1.5rem;
+  }
+  .user-container img{
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+  .search-container {
+    display: grid;
+    grid-template-columns: 7% 92%;
+    column-gap: 0.5rem;
+  }
+  .search-container .menu {
+    display: inline-block;
+  }
+  .search-container input {
+    width: 90%;
+    padding: 0.8rem;
+    font-size: 1.5rem;
+  }
+  .input-container {
+    grid-template-columns: 20% 80%;
+  }
+  .input-wrapper input, .input-wrapper select {
+    width: 60%;
+    padding: 0.8rem 1.5rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+  }
+}
+
+@media (992px <= width <= 1024px) {
+  .input-container {
+    grid-template-columns: 20% 80%;
+  }
+  .input-wrapper input, .input-wrapper select {
+    width: 60%;
+    padding: 0.8rem 1.5rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+  }
+}
