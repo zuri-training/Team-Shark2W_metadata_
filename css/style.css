@@ -291,7 +291,6 @@ a:active {
   justify-content: space-between;
   gap: 50px;
   background: rgba(10, 51, 122, 0.4);
-  border: 1px solid #000000;
 }
 
 .images img {
@@ -398,7 +397,6 @@ a:active {
   display: flex;
   flex-direction: column;
   padding: 50px;
-  border-top: 1px solid #0c4bb7;
   height: max-content;
 }
 
@@ -517,7 +515,7 @@ a:active {
   font-weight: 500;
   font-size: 24px;
   line-height: 24px;
-  margin-right: 80px;
+  margin-right: 51px;
 }
 
 .third-div span {
@@ -525,7 +523,7 @@ a:active {
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  margin-right: 80px;
+  margin-right: 51px;
 }
 
 /*  */
